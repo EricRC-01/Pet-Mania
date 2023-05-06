@@ -49,15 +49,15 @@ Em seguida, será feito o arquivo do backend em javascript para atender a funcio
 ## Mockups
 
 ### Mockup da pagina inicial do site
-![Mockup_PaginaInicial](images_galery\Mockup_PaginaInicial.png)
+![Mockup_PaginaInicial](images_galery/Mockup_PaginaInicial.png)
 
 
 ### Mockup da pagina de produtos
-![Mockup_Produtos](images_galery\Mockup_Produtos.png)
+![Mockup_Produtos](images_galery/Mockup_Produtos.png)
 
 ## Diagrama
 
-![Mockup_PaginaInicial](images_galery\Diagrama_Pet_Mania.jpg)
+![Mockup_PaginaInicial](images_galery/Diagrama_Pet_Mania.jpg)
 
 
 
