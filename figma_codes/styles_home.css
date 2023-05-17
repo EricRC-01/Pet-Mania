@@ -1,6 +1,8 @@
 *{
 	font-family: Poppins;
 }
+
+
 body{
 	background-color: rgba(255, 255, 255, 1);
 }
@@ -329,10 +331,12 @@ body{
 	letter-spacing:0;
 }
 .e18_5 { 
-	background-color:rgba(167.89473563432693, 255, 45.68750202655792, 1);
+	background-color:rgb(168, 255, 46);
 	width:1921px;
 	height:220px;
-	position:absolute;
+	
+	position: top;
+	
 	left:-1px;
 	top:1965px;
 }
