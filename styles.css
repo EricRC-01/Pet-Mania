@@ -3,16 +3,15 @@
 }
 body{
 	background-color: rgba(255, 255, 255, 1);
-}
-.e1_2 { 
-	overflow:hidden;
-}
-.e1_2 { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1920px;
 	height:2187px;
 	position:absolute;
+
 }
+
+
+
 .e15_4 { 
 	width:1921px;
 	height:616px;
@@ -533,73 +532,20 @@ body{
 	left:0px;
 	top:0px;
 }
-.ei149_281_149_203 { 
-	width:594px;
-	height:36px;
-	position:absolute;
-	left:746px;
-	top:44px;
-}
-.ei149_281_149_203_130_1968 { 
-	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
-	width:89px;
-	height:36px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-}
-.ei149_281_149_203_130_1970 { 
-	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
-	width:74px;
-	height:28px;
-	position:absolute;
-	left:520px;
-	top:4px;
-	font-family:Roboto;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-}
-.ei149_281_149_203_130_1971 { 
-	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
-	width:103px;
-	height:36px;
-	position:absolute;
-	left:162px;
-	top:0px;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-}
-.ei149_281_149_203_130_1972 { 
-	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
-	width:109px;
-	height:36px;
-	position:absolute;
-	left:338px;
-	top:0px;
-	text-align:left;
-	font-size:24px;
-	letter-spacing:0;
-}
-.ei149_281_143_34 { 
-	width:1920px;
-	height:100px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei149_281_130_1983 { 
+
+.navBar { 
+
 	background-color:rgba(188.0000039935112, 255, 94.0000019967556, 1);
 	width:1920px;
 	height:100px;
 	position:absolute;
 	left:0px;
 	top:0px;
+
+
 }
+
+
 .ei149_281_148_146 { 
 	width:43.47457504272461px;
 	height:45px;
@@ -630,15 +576,17 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.ei149_281_130_1991 { 
-	width:182px;
-	height:54px;
+
+#logo { 
+	display: inline;
+
 	position:absolute;
-	left:109px;
-	top:26px;
+
 }
-.ei149_281_130_1992 { 
-	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
+
+.logo_txt { 
+
+	color:rgb(74, 74, 74);
 	width:182px;
 	height:54px;
 	position:absolute;
@@ -648,7 +596,8 @@ body{
 	font-size:36px;
 	letter-spacing:0;
 }
-.ei149_281_130_1994 { 
+
+.logo_img { 
 	width:50px;
 	height:52.77777862548828px;
 	position:absolute;
@@ -658,6 +607,7 @@ body{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
 .ei149_281_143_30 { 
 	color:rgba(74.0000031888485, 74.0000031888485, 74.0000031888485, 1);
 	width:89px;
