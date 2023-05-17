@@ -11,6 +11,8 @@ body{
 }
 
 nav{
+	border-radius: 5px 5px 5px 5px;
+
 
 	color: rgba(74, 74, 74, 1);
 
@@ -109,12 +111,16 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	
-	width: 1920px;
+	/* width: 1920px; */
+	width: 1250px;
 	height: 580px;
 	
+	border-radius: 10px 10px 10px 10px;
 
-	border: 5px solid rgb(0, 64, 240);
 
+
+	/* Borda para test */
+	/* border: 5px solid rgb(0, 64, 240); */
 }
 
 
@@ -127,4 +133,36 @@ nav{
 
 }
 
+#bar_promocoes{
 
+	background-color: rgba(6, 75, 181, 1);
+
+	/* Organização de itens */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+	/* Margeem e borda */
+	margin: 17px;
+	border-radius: 20px 20px 20px 20px;
+
+	/* dimensões */
+	width: 1250px;
+	height: 280px;
+	
+}
+
+.num_porcent{
+
+	color: white;
+	font-size: 25px;
+
+
+}
+
+#bar_promotion_txt{
+	color: white;
+	font-size: 36px;
+
+}
