@@ -6,10 +6,14 @@
 body{
 	background-color: white;
 
+	align-items: center;
+	justify-content: center;
+
+
 }
 
 
-/* ======= Nav Bar ======= */
+/* ================= Nav Bar ================ */
 
 nav{
 	border-radius: 5px 5px 5px 5px;
@@ -106,7 +110,6 @@ nav{
 
 
 
-/* ============================= */
 
 /* ======= Nav: Promoções de destaque ======== */
 
@@ -181,7 +184,50 @@ nav{
 
 }
 
+/* ============= Produtos em destaque ============= */
 
+
+#produtos_buttons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+
+}
+.produtos_buttons_container_text{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+	background-color: rgba(6, 75, 181, 1);
+
+	border-top-left-radius: 1030px;
+    border-top-right-radius: 1030px;
+    border-bottom-left-radius: 1030px;
+    border-bottom-right-radius: 1030px;
+	width: 300px;
+    height: 50px;
+
+}
+.produtos_buttons_text{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 200px;
+    height: 25px;
+
+
+	color: white;
+	font-size: 15px;
+
+	/* border: 1px solid red; */
+
+}
 
 #lista_de_produtos{
 	display: flex;
@@ -212,8 +258,15 @@ nav{
 
 .img_produto{
 	
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
+
+
+}
+
+.preço_txt{
+
+	color: black;
 
 
 }
