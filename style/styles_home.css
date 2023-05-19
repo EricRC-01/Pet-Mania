@@ -64,7 +64,6 @@ nav{
 	height:30px;
 }
 /* ======= Nav: Promoções de destaque ======== */
-
 #nav_promocoes{
 	background-image: url(../images/ver_campanhas.png);
 	background-repeat: no-repeat;
@@ -214,21 +213,25 @@ nav{
 	right: 0px;
 	bottom: 0px;
 
-	width: 200px;
+	width: 250px;
 	height: 250px;
 
-
-	border: 1px solid red;
+	background-image: url(../images/illustration_pack_pet_shop__1__4.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
 }
 #container_imageLeft_inscBar{
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
 
-	width: 200px;
+	width: 250px;
 	height: 250px;
-
-	border: 1px solid red;
+	background-image: url(../images/illustration_pack_pet_shop__1__4.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
 }
 #conteiner_input_infos{
 	border: hidden;
