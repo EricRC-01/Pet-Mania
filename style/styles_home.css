@@ -328,11 +328,6 @@ nav{
 
 }
 
-#continer_input_infos{
-
-
-	border: 1px solid red;
-}
 
 #container_imageRight_inscBar{
 	position: absolute;
@@ -344,8 +339,7 @@ nav{
 
 
 	border: 1px solid red;
-}
-#container_imageLeft_inscBar{
+}#container_imageLeft_inscBar{
 
 	position: absolute;
 	left: 0px;
@@ -357,3 +351,27 @@ nav{
 	border: 1px solid red;
 }
 
+#continer_input_infos{
+
+
+	/* border: 1px solid red; */
+}#container_button_emails{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+
+
+	border: 1px solid blue;
+
+}#inscrevase_button{
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+
+
+}#input_email{
+
+
+	border-radius: 20px;
+}
