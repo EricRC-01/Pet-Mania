@@ -1,22 +1,15 @@
 *{
 	font-family: Poppins;
 }
-
-
 body{
 	background-color: white;
 
 	align-items: center;
 	justify-content: center;
-
-
 }
-
-
 /* ================= Nav Bar ================ */
 
 nav{
-
 	border-radius: 5px 5px 5px 5px;
 
 
@@ -31,11 +24,8 @@ nav{
 	
 	width:1250px;
 	height:100px;
-	
-
 }
 #categories{
-
 	display: flex;
 	flex-direction: row;
 
@@ -49,23 +39,14 @@ nav{
 
 
 	width:500px;
-
-
-
-	/* border: 5px solid palevioletred; */
 }
-
 #logo{
-
 	display: flex;
     align-items: center; /* centraliza horizontalmente */
     justify-content: space-around; /* cetraliza verticalmente */ 
 
 	width: 350px;
 	height: 90px;
-
-
-	/* border: 5px solid palevioletred; */
 }
 #logo_icon{
 	width: 60px;
@@ -73,42 +54,22 @@ nav{
 
 	left: 34px;
     top: 24px;
-
-
-	/* border: 5px solid rgb(206, 25, 25); */
 }
 #logo_text{
 	font-size: 36px;
-
-
-	/* border: 5px solid rgb(206, 25, 25); */
 }
-
-
 #login_butons{
-	
 	display: flex;
     align-items: center; /* centraliza horizontalmente */
     justify-content: space-around; /* cetraliza verticalmente */ 
 
 	width: 180px;
 	height: 90px;
-	
-
-	/* border: 5px solid palevioletred; */
 }
 .login_butons_itens{
-
 	width:30px;
 	height:30px;
-	
-
-
 }
-
-
-
-
 /* ======= Nav: Promoções de destaque ======== */
 
 #nav_promocoes{
@@ -127,29 +88,19 @@ nav{
 	height: 580px;
 	
 	border-radius: 10px 10px 10px 10px;
-
-
-
-	/* Borda para test */
-	/* border: 5px solid rgb(0, 64, 240); */
 }
 
 
 .side_button{
-
-
 	margin-left: 10px;
 	margin-right: 10px;
 
 
 	width: 50px;
 	height: 50px;
-
-
 }
 
 #bar_promocoes{
-
 	background-color: rgba(6, 75, 181, 1);
 
 	/* Organização de itens */
@@ -165,33 +116,23 @@ nav{
 	/* dimensões */
 	width: 1250px;
 	height: 280px;
-	
 }
-
 .num_porcent{
-
 	color: white;
 	font-size: 25px;
-
-
 }
-
 #bar_promotion_txt{
 	color: white;
 	font-size: 36px;
-
 }
 
 /* ============= Produtos em destaque ============= */
-
 
 #produtos_buttons{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
-
-
 }
 .produtos_buttons_container_text{
 	display: flex;
@@ -208,77 +149,48 @@ nav{
 	
 	width: 300px;
     height: 50px;
-
 }
 .produtos_buttons_text{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
 	width: 200px;
     height: 25px;
-
-
 	color: white;
 	font-size: 15px;
-
-	/* border: 1px solid red; */
-
 }
 
 #lista_de_produtos{
 	display: flex;
 	flex-direction: row;
-
-	justify-content: space-evenly;
-
-
+	justify-content: space-around;
 }
 .container_img_produto{
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-	
 	width: 250px;
 	height: 250px;
-
-
-
 	border: 2px solid black;
 	border-radius: 20px;
-
 }
 .img_produto{
-	
 	width: 180px;
 	height: 180px;
-
-
 }
 .preço_txt{
-
 	color: black;
-
-
 }
 .list_itens_button{
-
 	display: flex;
 	align-items: center; /* centraliza horizontalmente */
     justify-content: space-evenly; /* cetraliza verticalmente */ 
 
 	margin-top: 5px;
 	margin-bottom: 5px;
-	
-
-	/* border: 5px solid red; */
 }
-
-
 .conteiner_itens_butons{
 
 	background-color: rgb(168, 255, 46);	
@@ -303,8 +215,6 @@ nav{
 
 	/* border: 5px solid blue; */
 }
-
-
 /* ============= Barra de inscrição =========== */
 #inscrição_barra{
 
@@ -323,17 +233,7 @@ nav{
 	margin-top: 80px;
 
 	/* top: 1715px; */
-
-
-
 }
-
-#continer_input_infos{
-
-
-	border: 1px solid red;
-}
-
 #container_imageRight_inscBar{
 	position: absolute;
 	right: 0px;
@@ -355,4 +255,29 @@ nav{
 	height: 250px;
 
 	border: 1px solid red;
+}
+#conteiner_input_infos{
+	border: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 20px;
+	width: fit-content;
+}
+#email_inscricao{
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: hidden;
+	box-shadow: 2px 2px 2px gray;
+}
+#inscrevase_button{
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: rgba(6, 75, 181, 1);
+	color:rgba(242, 232, 207, 1);
+	border: hidden;
+	box-shadow: 2px 2px 2px gray;
 }
