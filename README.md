@@ -30,10 +30,11 @@ Modelo com imagens prontas para usar: [https://www.figma.com/file/lcNSEI7O3CVvJQ
 
 ## Descrição do projeto:
 
-A partir do figma, vamos usar plugins para gerar o html e css da pagina em questão, em seguida, modificaremos a mesma manualmente para estar clara, adequada, funcional e responsiva (visto que este modo de criação acarretara em diversos erros ao ser feita automaticamente e sem supervisão).
+O projeto desenvolvido na disciplina de Introdução à Web, ministrada pelo professor Dilvan. 
+Neste trabalho, foi feita a criação de um website para o Pet-mania, um petshop especializado em produtos para animais de estimação. O foco principal do projeto é permitir que os clientes possam fazer pedidos de coleiras personalizadas para seus animais de estimação.
 
-Em seguida, será feito o arquivo do backend em javascript para atender a funcionalidade de “single-page Aplication Style” e demis funcionalidades e nescessidades 
-
+Ferramentas Utilizadas:
+Durante o desenvolvimento do projeto, utilizamos duas ferramentas essenciais: o Figma e o Miro. O Figma foi utilizado para criar o mockup do website, permitindo a visualização e prototipagem das páginas e elementos visuais. Com o Figma, foi possível definir a estrutura e o design do website, garantindo uma experiência amigável para os usuários. Além disso, o Miro foi utilizado para criar o diagrama do projeto, ajudando a organizar as diferentes etapas do desenvolvimento e a colaboração entre os membros da equipe.
   
 
 ### Funcionalidades especificas
@@ -68,5 +69,9 @@ Em seguida, será feito o arquivo do backend em javascript para atender a funcio
 ## Instalação
 
 ## Dificuldades
+No inicio, optamos por desenvolver os códigos a partir dos codigos gerados pelo figma e depois 
+reescrev-los para deixa-los mais organizados porém foi visivel que isto se tornaria uma tarefa
+muito dificil de se realizar e tivemos que codar todas as paginas do 0, o que acarretou na falta 
+de uma das paginas (no caso, a que contem a funcionalidade especifica). 
 
 ## Comentários
