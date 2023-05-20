@@ -3,9 +3,12 @@
 }
 body{
 	background-color: white;
-}
-/* ================= Nav Bar ================ */
 
+	position: absolute;
+}
+
+
+/* ================= Nav Bar ================ */
 nav{
 	border-radius: 5px 5px 5px 5px;
 	color: rgba(74, 74, 74, 1);
@@ -18,6 +21,7 @@ nav{
 	
 	width:1250px;
 	height:100px;
+
 }
 #categories{
 	display: flex;
@@ -63,6 +67,8 @@ nav{
 	width:30px;
 	height:30px;
 }
+
+
 /* ======= Nav: Promoções de destaque ======== */
 #nav_promocoes{
 	background-image: url(../images/ver_campanhas.png);
@@ -114,6 +120,8 @@ nav{
 	color: white;
 	font-size: 36px;
 }
+
+
 
 /* ============= Produtos em destaque ============= */
 #produtos_buttons{
@@ -193,6 +201,8 @@ nav{
 	width: 18px;
 	height: 18px;
 }
+
+
 /* ============= Barra de inscrição =========== */
 #inscrição_barra{
 	position: relative;
@@ -257,4 +267,66 @@ nav{
 	color:rgba(242, 232, 207, 1);
 	border: hidden;
 	box-shadow: 2px 2px 2px gray;
+}
+
+/* ========== Barra de infos ============= */
+
+#barra_de_infos{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	background-color:rgb(168, 255, 46);	
+	
+	width:1250px;
+	height:190px;
+
+
+}
+#infos_e_sobre_nos{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+
+	width:700px;
+	height:190px;
+
+
+
+	/* border: 1px solid red; */
+}
+
+#redes_sociais{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+
+
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+
+
+	width:200px;
+	height:190px;
+
+	right: 0px;
+
+	/* border: 1px solid red; */
+}
+
+.list_infos_sobrenos{
+	
+	display: flex;
+	flex-direction: column;
+
+
+	/* border: 1px solid blueviolet; */
 }
