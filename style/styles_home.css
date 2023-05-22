@@ -1,7 +1,8 @@
 :root{
-	--largura-sections: 1510px
+	--largura-sections: 1510px;
+	--verde-destaque: rgb(168, 255, 46);
 
-
+	/* var(verde-destaque); */
 }
 
 *{
@@ -28,7 +29,7 @@ nav{
 	flex-direction: row;
 	justify-content: space-around;
 
-	background-color:rgb(168, 255, 46);	
+	background-color: var(--verde-destaque);
 	
 	width: var(--largura-sections);
 	height:100px;
@@ -94,7 +95,7 @@ nav{
 	
 	/* width: 1920px; */
 	width: var(--largura-sections);
-	height: 580px;
+	height: 480px;
 	
 	border-radius: 10px 10px 10px 10px;
 }
@@ -246,7 +247,7 @@ nav{
 	margin-bottom: 5px;
 }
 .conteiner_itens_butons{
-	background-color: rgb(168, 255, 46);	
+	background-color: var(--verde-destaque);	
 	border-radius: 50%;
 
 	display: flex;
@@ -352,7 +353,7 @@ nav{
 	flex-direction: row;
 	justify-content: space-evenly;
 
-	background-color:rgb(168, 255, 46);	
+	background-color: var(--verde-destaque);	
 	
 	width: var(--largura-sections);
 	height:200px;
