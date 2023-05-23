@@ -91,12 +91,13 @@ Boxes do Login */
 }
 
 .flex-item-img{
-	max-width: 25%;
-	background-color:rgb(168, 255, 46);
+	max-width: 33%;
 }
 
 .image img{
-	max-width: 25%;
+	max-width: 800px;
+	justify-content: center;
+	
 }
 
 .flex-item-login{
