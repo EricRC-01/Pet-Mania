@@ -1,0 +1,160 @@
+/* ============= Genreal ============ */
+:root{
+	--largura-sections: 1510px;
+	--verde-destaque: rgb(168, 255, 46);
+
+	/* var(verde-destaque); */
+}
+*{
+	font-family: Poppins;
+}
+body{
+	background-color: white;
+	position: absolute;
+
+	padding: 0px;
+	margin: 0px;
+
+	/* border: 1px solid red; */
+}
+
+
+/* ================= Nav Bar ================ */
+nav{
+	border-radius: 5px 5px 5px 5px;
+	color: rgba(74, 74, 74, 1);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	background-color: var(--verde-destaque);
+	
+	width: var(--largura-sections);
+	height:100px;
+
+}
+#categories{
+	display: flex;
+	flex-direction: row;
+
+	/* centraliza horizontalmente */
+	align-items: center; 
+    /* cetraliza verticalmente */
+	justify-content: space-evenly;  
+
+	font-size: 20px;
+	color: rgb(46, 46, 46);
+
+	width:500px;
+}
+#logo{
+	display: flex;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: space-around; /* cetraliza verticalmente */ 
+
+	width: 350px;
+	height: 90px;
+}
+#logo_icon{
+	width: 60px;
+    height: 60px;
+
+	left: 34px;
+    top: 24px;
+}
+#logo_text{
+	font-size: 36px;
+}
+#login_butons{
+	display: flex;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: space-around; /* cetraliza verticalmente */ 
+
+	width: 180px;
+	height: 90px;
+}
+.login_butons_itens{
+	width:30px;
+	height:30px;
+}
+
+
+/* ==============  login bar ============== */
+#container_login_inputs{
+
+    width: var(--largura-sections);
+    height: 500px;
+
+    background-color: azure;
+}
+
+
+
+
+/* ========== Barra de infos ============= */
+
+#barra_de_infos{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	background-color: var(--verde-destaque);	
+	
+	width: var(--largura-sections);
+	height:200px;
+
+
+}
+#infos_e_sobre_nos{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+
+	width:700px;
+	height:200px;
+
+
+
+	/* border: 1px solid red; */
+}
+#redes_sociais{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+
+
+	position: relative;
+	right: 0px;
+	bottom: 0px;
+
+
+	width:200px;
+	height:200px;
+
+	right: 0px;
+
+	/* border: 1px solid red; */
+}
+.list_infos_sobrenos{
+	
+	display: flex;
+	flex-direction: column;
+
+
+	/* border: 1px solid blueviolet; */
+}
+.tittle_list_infos{
+	color: rgba(74, 74, 74, 1);
+
+	font-size: 25px;
+
+
+}
