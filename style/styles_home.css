@@ -21,7 +21,7 @@ body{
 
 
 /* ================= Nav Bar ================ */
-nav{
+#navBar{
 	border-radius: 5px 5px 5px 5px;
 	color: rgba(74, 74, 74, 1);
 

@@ -179,6 +179,69 @@ nav{
 }
 
 
+/* ============== Barra de filtro =========== */
+#nav_filtros{
+	display: flex;
+	flex-direction: column;
+
+	width: 210px;
+	height: 895px;
+
+	margin: 10px;
+
+	/* border: 1px solid red; */
+}
+#list_filtros{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: start;	
+
+	margin-top: 5px;
+	margin-left: 5px;
+
+
+}
+#container_filtro_text{
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+
+	width: 200px;
+	height: 65px;
+
+	padding-left: 15px;
+
+	background-color: rgb(208, 203, 196);
+
+
+	/* 
+		border: 2px solid rgb(208, 203, 196);
+		border-radius: 20px;
+	*/
+	box-shadow: 2px 2px 2px gray;
+
+}
+
+
+.container_list_filtro_item{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-left: 15px;
+	padding-right: 5px;
+
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+
+	background-color: rgb(170, 166, 161);
+
+}
+
 /* ============= Barra de inscrição =========== */
 #inscrição_barra{
 	position: relative;
