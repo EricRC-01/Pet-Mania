@@ -81,7 +81,13 @@ nav{
 
 
 /* ==============  login bar ============== */
+#container_login_inputs{
 
+    width: var(--largura-sections);
+    height: 500px;
+
+    background-color: azure;
+}
 
 
 
