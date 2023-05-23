@@ -1,10 +1,21 @@
+/* ============= Genreal ============ */
+:root{
+	--largura-sections: 1510px;
+	--verde-destaque: rgb(168, 255, 46);
+
+	/* var(verde-destaque); */
+}
 *{
 	font-family: Poppins;
 }
 body{
 	background-color: white;
-
 	position: absolute;
+
+	padding: 0px;
+	margin: 0px;
+
+	/* border: 1px solid red; */
 }
 
 
@@ -17,9 +28,9 @@ nav{
 	flex-direction: row;
 	justify-content: space-around;
 
-	background-color:rgb(168, 255, 46);	
+	background-color: var(--verde-destaque);
 	
-	width:1250px;
+	width: var(--largura-sections);
 	height:100px;
 
 }
@@ -69,61 +80,26 @@ nav{
 }
 
 
-/* ======= Nav: Promoções de destaque ======== */
-#nav_promocoes{
-	background-image: url(../images/ver_campanhas.png);
-	background-repeat: no-repeat;
-    background-size: cover;
-	background-position: center;
-	
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	
-	/* width: 1920px; */
-	width: 1250px;
-	height: 580px;
-	
-	border-radius: 10px 10px 10px 10px;
-}
-.side_button{
-	margin-left: 10px;
-	margin-right: 10px;
-
-
-	width: 50px;
-	height: 50px;
-}
-#bar_promocoes{
-	background-color: rgba(6, 75, 181, 1);
-
-	/* Organização de itens */
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-
-	/* Margeem e borda */
-	margin: 17px;
-	border-radius: 20px 20px 20px 20px;
-
-	/* dimensões */
-	width: 1250px;
-	height: 280px;
-}
-.num_porcent{
-	color: white;
-	font-size: 25px;
-}
-#bar_promotion_txt{
-	color: white;
-	font-size: 36px;
-}
-
-
 
 /* ============= Produtos em destaque ============= */
+#produtos_destaque{
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+
+	width: var(--largura-sections);
+	height: 895px;
+
+}
+#lista_de_produtos{
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+
+	width: var(--largura-sections);
+
+
+}
 #produtos_buttons{
 	display: flex;
 	flex-direction: row;
@@ -213,7 +189,8 @@ nav{
 	justify-content: space-evenly;
 
 	background-color: rgba(242, 232, 207, 1);
-    width: 1250px;
+    
+	width: var(--largura-sections);
     height: 250px;
      
 	margin-top: 80px;
@@ -230,6 +207,8 @@ nav{
 	background-repeat: no-repeat;
     background-size: cover;
 	background-position: center;
+
+	/* border: 1px solid red; */
 }
 #container_imageLeft_inscBar{
 	position: absolute;
@@ -242,20 +221,26 @@ nav{
 	background-repeat: no-repeat;
     background-size: cover;
 	background-position: center;
+
+	/* border: 1px solid red; */
 }
-#conteiner_input_infos{
+#continer_input_infos{
 	border: hidden;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 20px;
 	width: fit-content;
+
+	/* border: 1px solid red; */
 }
-#ontainer_button_emails{
+#container_button_emails{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+
+	/* border: 1px solid red; */
 }
 #email_inscricao{
 	margin: 10px;
@@ -264,9 +249,7 @@ nav{
 	border: hidden;
 	box-shadow: 2px 2px 2px gray;
 
-		width: 200px;;
-
-
+	width: 200px;;
 }
 #inscrevase_button{
 	margin: 10px;
@@ -286,9 +269,9 @@ nav{
 	flex-direction: row;
 	justify-content: space-evenly;
 
-	background-color:rgb(168, 255, 46);	
+	background-color: var(--verde-destaque);	
 	
-	width:1250px;
+	width: var(--largura-sections);
 	height:200px;
 
 
@@ -344,3 +327,5 @@ nav{
 
 
 }
+
+
