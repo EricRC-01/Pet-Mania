@@ -49,6 +49,13 @@ body{
 
 	width:500px;
 }
+.categories_itens{
+	transition: transform 0.3s ease;
+}
+.categories_itens:hover{
+	transform: translateY(-15px);
+}
+
 #logo{
 	display: flex;
     align-items: center; /* centraliza horizontalmente */
@@ -346,7 +353,6 @@ body{
 }
 
 /* ========== Barra de infos ============= */
-
 #barra_de_infos{
 
 	display: flex;
