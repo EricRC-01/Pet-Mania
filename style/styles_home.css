@@ -81,12 +81,43 @@ body{
 
 	width: 180px;
 	height: 90px;
-}
-.login_butons_itens{
-	width:30px;
-	height:30px;
-}
 
+	/* border: 2px solid red; */
+}
+.buttons_nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+	--dimensions-buttons-nav: 30px;
+	width:var(--dimensions-buttons-nav);
+	height:var(--dimensions-buttons-nav);
+
+	background-color: var(--verde-destaque);
+
+	/* border: none; */
+}
+.imag_buttons{
+	height: 20px;
+	width: 20px;
+}
+#side_login{
+	display: none; /* Inicialmente oculta */
+	position: absolute; /* Posicionamento absoluto */
+	z-index: 999; /* Valor alto para aparecer acima de outras divs */
+
+
+	right: 0px;
+
+	width: 210px;
+	height: 480px;
+
+
+
+	background-color: var(--verde-destaque);
+}
 
 /* ======= Nav: Promoções de destaque ======== */
 #nav_promocoes{
