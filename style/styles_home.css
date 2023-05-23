@@ -1,3 +1,6 @@
+/* ========== Generals ============ */
+
+
 :root{
 	--largura-sections: 1510px;
 	--verde-destaque: rgb(168, 255, 46);
@@ -97,7 +100,7 @@ body{
 
 	background-color: var(--verde-destaque);
 
-	/* border: none; */
+	border: none;
 }
 .imag_buttons{
 	height: 20px;
@@ -114,9 +117,32 @@ body{
 	width: 210px;
 	height: 480px;
 
-
+	box-shadow: 2px 4px 4px black;
+	border-radius: 3px;
+	border: 2px solid rgb(110, 176, 17);;
 
 	background-color: var(--verde-destaque);
+}
+#container_infos_side_login{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	/* border: 2px solid green; */
+}
+
+.infs_side_login_itens{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+	position: relative;
+	right: 0px;
+
+	margin-right: 10px;
+
+	/* border: 2px solid orange; */
+
 }
 
 /* ======= Nav: Promoções de destaque ======== */
