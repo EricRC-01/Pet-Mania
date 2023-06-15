@@ -1,0 +1,124 @@
+/* ========== Generals ============ */
+@import './generals.css';
+
+/* ================= Nav Bar ================ */
+#navBar{
+	border-radius: 5px 5px 5px 5px;
+	color: rgba(74, 74, 74, 1);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	background-color: var(--verde-destaque);
+	
+	width: var(--largura-sections);
+	height:100px;
+
+}
+#categories{
+	display: flex;
+	flex-direction: row;
+
+	/* centraliza horizontalmente */
+	align-items: center; 
+    /* cetraliza verticalmente */
+	justify-content: space-evenly;  
+
+	font-size: 20px;
+	color: rgb(46, 46, 46);
+
+	width:500px;
+}
+.categories_itens{
+	transition: transform 0.3s ease;
+}
+.categories_itens:hover{
+	transform: translateY(-15px);
+}
+
+#logo{
+	display: flex;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: space-around; /* cetraliza verticalmente */ 
+
+	width: 350px;
+	height: 90px;
+}
+#logo_icon{
+	width: 60px;
+    height: 60px;
+
+	left: 34px;
+    top: 24px;
+}
+#logo_text{
+	font-size: 36px;
+}
+#login_butons{
+	display: flex;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: space-around; /* cetraliza verticalmente */ 
+
+	width: 180px;
+	height: 90px;
+
+	/* border: 2px solid red; */
+}
+.buttons_nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+	--dimensions-buttons-nav: 30px;
+	width:var(--dimensions-buttons-nav);
+	height:var(--dimensions-buttons-nav);
+
+	background-color: var(--verde-destaque);
+
+	border: none;
+}
+.imag_buttons{
+	height: 20px;
+	width: 20px;
+}
+#side_login{
+	display: none; /* Inicialmente oculta */
+	position: absolute; /* Posicionamento absoluto */
+	z-index: 999; /* Valor alto para aparecer acima de outras divs */
+
+
+	right: 0px;
+
+	width: 210px;
+	height: 480px;
+
+	box-shadow: 2px 4px 4px black;
+	border-radius: 3px;
+	border: 2px solid rgb(110, 176, 17);;
+
+	background-color: var(--verde-destaque);
+}
+#container_infos_side_login{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	/* border: 2px solid green; */
+}
+
+.infs_side_login_itens{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+	position: relative;
+	right: 0px;
+
+	margin-right: 10px;
+
+	/* border: 2px solid orange; */
+
+}

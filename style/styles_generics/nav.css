@@ -1,13 +1,8 @@
-* {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-body {
-	font-family: Cambria;
-}nav {
+
+@import './generals.css';
+
+
+nav {
 	background: rgb(6, 75, 181);
 	height: 80px;
 	width: 100%;
@@ -48,59 +43,6 @@ a.active, a:hover {
 }
 #check {
 	display: none;
-}
-#side_login{
-	display: none; /* Inicialmente oculta */
-	position: absolute; /* Posicionamento absoluto */
-	z-index: 999; /* Valor alto para aparecer acima de outras divs */
-
-
-	right: 0px;
-
-	width: 210px;
-	height: 480px;
-
-	box-shadow: 2px 4px 4px black;
-	border-radius: 3px;
-	border: 2px solid rgb(110, 176, 17);;
-
-	background-color: var(--verde-destaque);
-}
-#side_login{
-	display: none; /* Inicialmente oculta */
-	position: absolute; /* Posicionamento absoluto */
-	z-index: 999; /* Valor alto para aparecer acima de outras divs */
-
-
-	right: 0px;
-
-	width: 210px;
-	height: 480px;
-
-	border-radius: 3px;
-	border: 2px solid rgb(110, 176, 17);;
-
-	background-color: var(--verde-destaque);
-}
-#container_infos_side_login{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-
-	/* border: 2px solid green; */
-}
-.infs_side_login_itens{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	
-	position: relative;
-	right: 0px;
-
-	margin-right: 10px;
-
-	/* border: 2px solid orange; */
-
 }
 
 
