@@ -24,6 +24,8 @@ body{
 
 
 /* ================= Nav Bar ================ */
+
+
 #navBar{
 	border-radius: 5px 5px 5px 5px;
 	color: rgba(74, 74, 74, 1);
@@ -58,7 +60,6 @@ body{
 .categories_itens:hover{
 	transform: translateY(-15px);
 }
-
 #logo{
 	display: flex;
     align-items: center; /* centraliza horizontalmente */
@@ -106,44 +107,7 @@ body{
 	height: 20px;
 	width: 20px;
 }
-#side_login{
-	display: none; /* Inicialmente oculta */
-	position: absolute; /* Posicionamento absoluto */
-	z-index: 999; /* Valor alto para aparecer acima de outras divs */
 
-
-	right: 0px;
-
-	width: 210px;
-	height: 480px;
-
-	box-shadow: 2px 4px 4px black;
-	border-radius: 3px;
-	border: 2px solid rgb(110, 176, 17);;
-
-	background-color: var(--verde-destaque);
-}
-#container_infos_side_login{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-
-	/* border: 2px solid green; */
-}
-
-.infs_side_login_itens{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	
-	position: relative;
-	right: 0px;
-
-	margin-right: 10px;
-
-	/* border: 2px solid orange; */
-
-}
 
 /* ======= Nav: Promoções de destaque ======== */
 #nav_promocoes{

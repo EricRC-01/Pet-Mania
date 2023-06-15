@@ -1,4 +1,4 @@
-/* ============= Genreal ============ */
+/* ============= Geral ============ */
 :root{
 	--largura-sections: 1510px;
 	--verde-destaque: rgb(168, 255, 46);
@@ -78,7 +78,25 @@ nav{
 	width:30px;
 	height:30px;
 }
+.buttons_nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 
+
+	--dimensions-buttons-nav: 30px;
+	width:var(--dimensions-buttons-nav);
+	height:var(--dimensions-buttons-nav);
+
+	background-color: var(--verde-destaque);
+
+	border: none;
+}
+.imag_buttons{
+	height: 20px;
+	width: 20px;
+}
 
 
 /* ============= Produtos em destaque ============= */

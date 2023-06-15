@@ -1,6 +1,10 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "icons": [
     {
       "src": "favicon.ico",
