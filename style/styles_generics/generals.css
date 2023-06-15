@@ -5,9 +5,9 @@
 	--largura-sections: 1510px;
 	--verde-destaque: rgb(168, 255, 46);
 
+	border: 1px solid red;
 	/* var(verde-destaque); */
 }
-
 *{
 	font-family: Poppins;
 	
@@ -19,5 +19,5 @@ body{
 	padding: 0px;
 	margin: 0px;
 
-	/* border: 1px solid red; */
+	border: 1px solid purple;
 }
